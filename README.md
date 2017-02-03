@@ -6,6 +6,22 @@ This gem is inspired by the Ruby api example provided in [vm-contrib repo](https
 
 The Official documentation on using the API can be found at [VolunteerMatch.org](http://cdn.volunteermatch.org/www/legal/VM-Public-use-API-user-manual.pdf).
 
+## Getting Started
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'volunteermatch'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install volunteermatch
+
 ### Before Continuing
 
 To use VolunteerMatch's Public-Use API, you need to be validated for full access. Complete an online application [here](https://www.volunteermatch.org/legal/publicuseapi){:target="_blank"} in order to get approved for a unique Public-Use key. Until then, you are only able to test `helloWorld` calls.
