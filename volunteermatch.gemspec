@@ -4,12 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'vm_public_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "vm_public_api"
-  spec.version       = VmPublicApi::VERSION
+  spec.name          = "volunteermatch"
+  spec.version       = Volunteermatch::VERSION
   spec.authors       = ["Evan Ng"]
   spec.email         = ["evan.ng@outlook.com"]
 
-  spec.summary       = %q{A lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching organizations and opportunities.}
+  spec.summary       = %q{A Ruby wrapper for VolunteerMatch's Public-Use API.}
+  spec.description   = %q{A lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities.}
   spec.homepage      = "https://github.com/evanscloud/vm_public_api"
   spec.license       = "MIT"
 
