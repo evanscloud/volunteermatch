@@ -8,10 +8,11 @@ require 'json'
 require 'ostruct'
 
 module Volunteermatch
-  class << self
+  class Client
     attr_accessor :attributes
 
     def initialize(api_username, api_key)
+      raise ArgumentError, 'username and key need to be defined' if api_username.nil? || api_username.empty? || api_key.nil? || api_key.empty?
       @api_username   = api_username
       @api_key        = api_key
     end
