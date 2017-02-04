@@ -9,7 +9,7 @@ require 'ostruct'
 
 module Volunteermatch
   class Client
-    attr_accessor :attributes
+    attr_accessor :api_username, :api_key, :attributes
 
     def initialize(api_username, api_key)
       raise ArgumentError, 'username and key need to be defined' if api_username.nil? || api_username.empty? || api_key.nil? || api_key.empty?
