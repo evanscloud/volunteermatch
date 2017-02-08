@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.describe Volunteermatch::API::Metadata do
-  subject { Volunteermatch::Client.new('test_user','test_key') }
+  subject { Volunteermatch::Client.new('acme','1234567890ABCDEF') }
 
   describe "getMetaData api call" do
     it "should call #metadata with 0 or 1 for argument" do
