@@ -1,0 +1,77 @@
+{
+    "accountName": "acme",
+    "apiKey": "1234567890ABCDEF",
+    "apiKeyConstraints": [
+        [
+            "max.calls.per.period",
+            "20000"
+        ],
+        [
+            "max.bandwidth.per.period",
+            "524288000"
+        ],
+        [
+            "period.duration",
+            "604800"
+        ],
+        [
+            "default.radius",
+            "20.0"
+        ],
+        [
+            "location.mandatory.for.search.opps",
+            "false"
+        ],
+        [
+            "max.create.or.update.members",
+            "20"
+        ],
+        [
+            "max.create.or.update.referrals",
+            "20"
+        ],
+        [
+            "max.forward.opportunity.recipients",
+            "20"
+        ],
+        [
+            "max.members.details.results",
+            "20"
+        ],
+        [
+            "max.members.returned",
+            "20"
+        ],
+        [
+            "max.opportunities.returned",
+            "20"
+        ],
+        [
+            "max.organization.reviews.returned",
+            "20"
+        ],
+        [
+            "max.organizations.returned",
+            "20"
+        ],
+        [
+            "max.referrals.returned",
+            "20"
+        ]
+    ],
+    "contactEmailAddress": "john.doe@acme.com",
+    "contactName": "John Doe",
+    "endDate": null,
+    "expires": "2011-10-07T14:56:21-0700",
+    "keyRole": "PUBLIC_PROGRAM",
+    "methods": [
+        "getKeyStatus",
+        "searchOrganizations",
+        "getServiceStatus",
+        "searchOpportunities",
+        "getMetaData",
+        "helloWorld"
+    ],
+    "owner": "John Doe",
+    "startDate": null
+}
