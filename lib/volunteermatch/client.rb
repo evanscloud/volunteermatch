@@ -8,6 +8,7 @@ require 'ostruct'
 require 'volunteermatch/api/hello_world'
 require 'volunteermatch/api/key_status'
 require 'volunteermatch/api/metadata'
+require 'volunteermatch/api/service_status'
 
 module Volunteermatch
   class Client
@@ -16,6 +17,7 @@ module Volunteermatch
     include Volunteermatch::API::HelloWorld
     include Volunteermatch::API::KeyStatus
     include Volunteermatch::API::Metadata
+    include Volunteermatch::API::ServiceStatus
 
     def initialize(api_username, api_key)
       raise ArgumentError, 'username and key need to be defined' if api_username.nil? || api_username.empty? || api_key.nil? || api_key.empty?
