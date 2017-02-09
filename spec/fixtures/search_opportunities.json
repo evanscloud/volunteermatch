@@ -1,0 +1,35 @@
+{
+    "currentPage": 1,
+    "opportunities": [{
+            "categoryIds": [23, 22, 17],
+            "location": {
+                "city": "New York",
+                "country": "US",
+                "postalCode": "10001",
+                "region": "NY"
+            },
+            "parentOrg": {
+                "id": 483521,
+                "name": "Maya's Hope"
+            },
+            "plaintextDescription": "Thank you for your interest in Maya's Hope! Our mission is to improve the lives of orphaned, special needs, and disenfranchised children on a global scale. We need your help! If you have neat, clear handwriting please send an email to info@mayashope.org Please include an example of your handwriting. Thanks again! Maya's Hope Volunteer Team",
+            "title": "Volunteer with neat handwriting"
+        },
+        {
+            "categoryIds": [23, 30],
+            "location": {
+                "city": "New York",
+                "country": "US",
+                "postalCode": "10162",
+                "region": "NY"
+            },
+            "parentOrg": {
+                "id": 968821,
+                "name": "Pilots to the Rescue"
+            },
+            "plaintextDescription": "Simply by using your vehicle you can save animals - Volunteer your time to transport animals along what is called a \\\"Rescue Relay Transport\\\". Each week there are hundreds of animal rescue transports taking place where animals are moved from high-kill shelters to no-kill shelters and rescue organizations, as well as foster homes and adopters. It's easy for you to get involved and help save more animals simply by driving a leg in this relay. How it works: 1. Sign-up on Doobert.com or use the Facebook plug-in (search for \\\" Doobert Rescue\\\" on Facebook) and specify the days you're available, the distance you're willing to drive, and then sit back and we'll do the rest. 2. When an animal rescue organization posts a transport request, the system will automatically search to see if it matches your profile (if you're available and within the distance) and then it automatically sends you an e-mail. 3. Then you simply click on the leg that you can cover and everyone else will see that you've signed up for that leg. 4. You'll get communications from the transport coordinator and, once the transport is a \\\"go\\\", you simply drive to the meeting place, load up the animals, and drive them to the next meeting place to hand them off to the next volunteer. You'll get plenty of doggy kisses and thank you's along the way as the animals know you are there to help them. There are videos on www.doobert.com that walk you through the process and give you tips and tricks on how to do transport. It's simple - and we need volunteers across the country, so share with your friends and help save an animal today!",
+            "title": "Drive a leg – Save a life! - New York, NY"
+        }
+    ],
+    "resultsSize": 2
+}

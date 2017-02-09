@@ -10,6 +10,7 @@ require 'volunteermatch/api/key_status'
 require 'volunteermatch/api/metadata'
 require 'volunteermatch/api/service_status'
 require 'volunteermatch/api/search_organizations'
+require 'volunteermatch/api/search_opportunities'
 
 module Volunteermatch
   class Client
@@ -20,6 +21,7 @@ module Volunteermatch
     include Volunteermatch::API::Metadata
     include Volunteermatch::API::ServiceStatus
     include Volunteermatch::API::SearchOrganizations
+    include Volunteermatch::API::SearchOpportunities
 
     def initialize(api_username, api_key)
       raise ArgumentError, 'username and key need to be defined' if api_username.nil? || api_username.empty? || api_key.nil? || api_key.empty?
