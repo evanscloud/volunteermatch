@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A Ruby wrapper for VolunteerMatch's Public-Use API.}
   spec.description   = %q{A lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities.}
-  spec.homepage      = "https://github.com/evanscloud/vm_public_api"
+  spec.homepage      = "https://github.com/evanscloud/volunteermatch"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "webmock", "~> 2.3.2"
+  spec.add_development_dependency "webmock", "~> 2.3"
 end
