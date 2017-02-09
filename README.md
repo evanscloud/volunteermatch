@@ -1,8 +1,8 @@
 # The VolunteerMatch Public-Use API Gem
 
-VolunteerMatch is a lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities. 
+VolunteerMatch is a lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities.
 
-This gem is inspired by the Ruby api example provided in [vm-contrib repo](https://github.com/volunteermatch/vm-contrib). Queries are configured based on the attributes applied and return a collection of JSON results. 
+This gem is inspired by the Ruby API example provided in the [vm-contrib repo](https://github.com/volunteermatch/vm-contrib). Queries are configured based on the attributes applied and return a collection of JSON results.
 
 The Official documentation on using the API can be found at [VolunteerMatch.org](http://cdn.volunteermatch.org/www/legal/VM-Public-use-API-user-manual.pdf).
 
@@ -25,6 +25,50 @@ And then execute:
 Or install it yourself as:
 
     $ gem install volunteermatch
+
+
+## Setting Your API Key
+
+Concealing your API username and key is important. I recommend using [dotenv](https://github.com/bkeepers/dotenv) to do so.
+
+```ruby
+client = Volunteermatch::Client.new('username', 'key')
+```
+
+After setting a `client`, you are able to access all methods below.
+
+## Basic Usage Examples
+
+**Test API Connectivity**
+```ruby
+vm = client.test("John")
+vm.result                   #=> "Hello John!"
+```
+
+**Get API Key Status**
+```ruby
+client.key_status
+```
+
+**Search Opportunities (location required)**
+```ruby
+client.search_opportunities(location: "New York", orgNames: ["red cross"], fieldsToDisplay: ["title", "description"])
+```
+
+**Search Organizations (location required)**
+```ruby
+client.search_organizations(location: "San Francisco", categoryIds: [23], fieldsToDisplay: ["name", "mission"])
+```
+
+**Get Metadata (defaults to current version)**
+```ruby
+client.metadata
+```
+
+**Get Service Status**
+```ruby
+client.service_status
+```
 
 ## API Access Agreement
 
