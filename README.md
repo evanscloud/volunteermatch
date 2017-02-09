@@ -1,5 +1,7 @@
 # The VolunteerMatch Public-Use API Gem
 
+[![Gem Version](https://badge.fury.io/rb/volunteermatch.svg)](https://badge.fury.io/rb/volunteermatch)
+
 VolunteerMatch is a lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities.
 
 This gem is inspired by the Ruby API example provided in the [vm-contrib repo](https://github.com/volunteermatch/vm-contrib). Queries are configured based on the attributes applied and return a collection of JSON results.
