@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "volunteermatch"
   spec.version       = Volunteermatch::VERSION
   spec.authors       = ["Evan Ng"]
-  spec.email         = ["evan.ng@outlook.com"]
+  spec.email         = ["contact@evanng.com"]
 
   spec.summary       = %q{A Ruby wrapper for VolunteerMatch's Public-Use API.}
   spec.description   = %q{A lightweight Ruby wrapper that queries VolunteerMatch's Public-Use API for searching information on nonprofit organizations and active volunteering opportunities.}
